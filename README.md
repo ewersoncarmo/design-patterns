@@ -4,3 +4,7 @@
 ## Strategy
 
 It is used when many related classes differ only in their behavior. Strategies provide a manner to configure a class with one among many behaviors.
+
+## Decorator
+
+It is used to add responsibilities to individual objects dynamically, without affect other objects.
