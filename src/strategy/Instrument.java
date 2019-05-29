@@ -1,6 +1,4 @@
-package strategy.tax;
-
-import strategy.model.Budget;
+package strategy;
 
 /**
  * Strategy: Defines an interface to be implemented by its concrete classes.
@@ -8,7 +6,7 @@ import strategy.model.Budget;
  * @author Ewerson Carmo
  * 
  */
-public interface Tax {
+public interface Instrument {
 
-	double calculate(Budget budget);
+	void play();
 }
