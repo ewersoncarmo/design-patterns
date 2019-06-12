@@ -16,3 +16,7 @@ The observer pattern defines an one to many dependency between objects, so that 
 It is used to add responsibilities to individual objects dynamically, without affect other objects.
 
 The decorator pattern attaches additional responsibilities to an object dynamically. It provides a flexible alternative to extend functionalities.
+
+## Factory Method
+
+The Factory Method defines an interface for creating an object, but lets the subclasses to decide which class to instantiate.
