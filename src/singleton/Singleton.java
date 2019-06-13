@@ -7,13 +7,13 @@ public class Singleton {
 	private Singleton() {}
 	
 	public static Singleton getInstance() {
-		if (singleton == null) {
+		if (Singleton.singleton == null) {
 			System.out.println("Creating new instance");
-			singleton = new Singleton();
+			Singleton.singleton = new Singleton();
 		} else
 			System.out.println("Retrieving the existing instance");
 		
-		return singleton;
+		return Singleton.singleton;
 	}
 
 }
