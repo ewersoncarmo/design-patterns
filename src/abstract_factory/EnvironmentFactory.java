@@ -1,10 +1,10 @@
 package abstract_factory;
 
-public class RandomFactory implements Factory {
+public class EnvironmentFactory implements Factory {
 
 	private int random;
 
-	public RandomFactory(int random) {
+	public EnvironmentFactory(int random) {
 		this.random = random;
 	}
 
@@ -21,15 +21,15 @@ public class RandomFactory implements Factory {
 	}
 
 	@Override
-	public Environment createEnvironment() {
-		Environment environment = null;
+	public Food createFood() {
+		Food food = null;
 		
 		if (this.random % 2 == 0)
-			environment = new House();
+			food = new DogFood();
 		else
-			environment = new Farm();
+			food = new CowFood();
 		
-		return environment;
+		return food;
 	}
 
 }
