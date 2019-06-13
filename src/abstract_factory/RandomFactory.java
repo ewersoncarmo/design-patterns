@@ -1,11 +1,5 @@
 package abstract_factory;
 
-/**
- * Concrete Factory: Decides which class to instantiate based in a certain logic.
- * 
- * @author Ewerson Carmo
- *
- */
 public class RandomFactory implements Factory {
 
 	private int random;

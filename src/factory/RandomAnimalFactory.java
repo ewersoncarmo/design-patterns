@@ -2,12 +2,6 @@ package factory;
 
 import java.util.Random;
 
-/**
- * Concrete Factory: Decides which class to instantiate based in a certain logic.
- * 
- * @author Ewerson Carmo
- *
- */
 public class RandomAnimalFactory implements AnimalFactory {
 
 	@Override
