@@ -20,3 +20,7 @@ The Factory Method defines an interface for creating an object, but lets the sub
 ## Abstract Factory
 
 The Abstract Factory pattern provides an inteface for creating families of related or dependent objects without specifing their concrete classes.
+
+## Singleton
+
+The Singleton pattern ensures that a class has only one instance and provides a global access to it.
