@@ -28,3 +28,7 @@ The Singleton pattern ensures that a class has only one instance and provides a 
 ## Command
 
 The Command pattern encapsulates a request as an object thereby letting you parameterize other objects with different requests queue or log requests and support undoable operations.
+
+## Adapter
+
+The Adapter pattern converts the interface of a class into another interface that the client expect. It lets classes work together that could not otherwise because they are incompatible interfaces.
