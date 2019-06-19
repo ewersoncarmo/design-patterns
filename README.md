@@ -32,3 +32,7 @@ The Command pattern encapsulates a request as an object thereby letting you para
 ## Adapter
 
 The Adapter pattern converts the interface of a class into another interface that the client expect. It lets classes work together that could not otherwise because they are incompatible interfaces.
+
+## Facade 
+
+The Facade pattern provides an unified interface to a set of interfaces in a sub system. Facade defines a higher level interface that makes the sub system easier to use.
