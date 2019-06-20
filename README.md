@@ -36,3 +36,7 @@ The Adapter pattern converts the interface of a class into another interface tha
 ## Facade 
 
 The Facade pattern provides an unified interface to a set of interfaces in a sub system. Facade defines a higher level interface that makes the sub system easier to use.
+
+## Proxy
+
+The Proxy pattern provides a surrogate or placeholder for another object in order to control access to it.
