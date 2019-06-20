@@ -40,3 +40,7 @@ The Facade pattern provides an unified interface to a set of interfaces in a sub
 ## Proxy
 
 The Proxy pattern provides a surrogate or placeholder for another object in order to control access to it.
+
+## Bridge
+
+The intent of the Bridge pattern is to decouple an abstraction from its implementation so that the two can vary independently
