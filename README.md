@@ -44,3 +44,7 @@ The Proxy pattern provides a surrogate or placeholder for another object in orde
 ## Bridge
 
 The intent of the Bridge pattern is to decouple an abstraction from its implementation so that the two can vary independently
+
+## Template Method
+
+The Template Method pattern defines the skeleton of an algorithm, deferring some steps to subclasses. It lets subclasses redefine certain steps of an algorithm without changing the algorithm structure.
