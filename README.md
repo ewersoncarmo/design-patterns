@@ -48,3 +48,7 @@ The intent of the Bridge pattern is to decouple an abstraction from its implemen
 ## Template Method
 
 The Template Method pattern defines the skeleton of an algorithm, deferring some steps to subclasses. It lets subclasses redefine certain steps of an algorithm without changing the algorithm structure.
+
+## Composite
+
+The Composite Pattern composes objects into tree structures and lets clients treat individual objects and compositions of objects uniformly. 
