@@ -56,3 +56,7 @@ The Composite Pattern composes objects into tree structures and lets clients tre
 ## Iterator
 
 The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. 
+
+## State
+
+The State Pattern allows an object to alter its behavior when its internal state changes.
