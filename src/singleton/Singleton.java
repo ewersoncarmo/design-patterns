@@ -10,8 +10,9 @@ public class Singleton {
 		if (Singleton.singleton == null) {
 			System.out.println("Creating new instance");
 			Singleton.singleton = new Singleton();
-		} else
-			System.out.println("Retrieving the existing instance");
+		} else {
+			System.out.println("Getting existing instance");
+		}
 		
 		return Singleton.singleton;
 	}

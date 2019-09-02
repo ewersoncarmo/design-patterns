@@ -1,9 +1,16 @@
 package decorator;
 
+import decorator.service.Appointment;
+import decorator.service.PetService;
+import decorator.service.extra.Shower;
+import decorator.service.extra.Vaccine;
+
 public class Client {
 
 	public static void main(String[] args) {
-		Beverage beverage = new Caramel(new Espresso());
-		System.out.println(beverage.cost());
+		PetService petService = new Appointment();
+		petService = new Vaccine(petService);
+		petService = new Shower(petService);
+		System.out.println(petService.getDescription() + ", " + petService.getCost());
 	}
 }
