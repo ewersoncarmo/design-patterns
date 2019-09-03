@@ -1,20 +1,20 @@
 package builder;
 
-import builder.modelo.Item;
-import builder.modelo.NotaFiscal;
+import builder.model.Item;
+import builder.model.Bill;
 
 public class Programa {
 
 	public static void main(String[] args) {
-		NotaFiscal notaFiscal = new NotaFiscalBuilder()
-			.paraEmpresa("Consultório Vida Animal")
-			.comCnpj("30.959.864/0001-04")
-			.comItem(new Item("item 1", 200.0))
-			.comItem(new Item("item 2", 400.0))
-			.comObservacoes("observações")
-			.naDataAtual()
-			.constroi();
+		Bill bill = new BillBuilder()
+			.forCorporate("Corporate Express")
+			.withCnpj("30.959.864/0001-04")
+			.withItems(new Item("item 1", 200.0))
+			.withItems(new Item("item 2", 400.0))
+			.withComments("Comments")
+			.onCurrentDate()
+			.build();
 
-		System.out.println(notaFiscal);
+		System.out.println(bill);
 	}
 }
