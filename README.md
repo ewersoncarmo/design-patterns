@@ -60,3 +60,27 @@ The Iterator Pattern provides a way to access the elements of an aggregate objec
 ## State
 
 The State Pattern allows an object to alter its behavior when its internal state changes.
+
+## Builder
+
+The Builder pattern allows you to create different types and representations of a complex object step by step. 
+
+## Chain Of Responsibility
+
+Chain of Responsibility pattern lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+
+## Flyweight
+
+Flyweight design pattern lets you fit more objects by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+
+## Interpreter
+
+The Interpreter design pattern is used to define a grammatical representation for a language and provide an interpreter to deal with this grammar.
+
+## Memento
+
+The Memento pattern provides the ability to restore an object to its previous state.
+
+## Visitor
+
+The Visitor design pattern is a way of separating an algorithm from an object structure on which it operates, providing the ability to add new operations to existing object structures without modifying them.
