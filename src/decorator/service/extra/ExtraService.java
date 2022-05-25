@@ -2,7 +2,7 @@ package decorator.service.extra;
 
 import decorator.service.PetService;
 
-public abstract class ExtraService extends PetService {
+public abstract class ExtraService implements PetService {
 
 	protected PetService petService;
 	

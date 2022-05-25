@@ -1,6 +1,6 @@
 package decorator.service;
 
-public class Appointment extends PetService {
+public class Appointment implements PetService {
 
 	@Override
 	public String getDescription() {

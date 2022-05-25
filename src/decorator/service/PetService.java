@@ -1,7 +1,7 @@
 package decorator.service;
 
-public abstract class PetService {
+public interface PetService {
 
-	public abstract String getDescription();
-	public abstract double getCost();
+	String getDescription();
+	double getCost();
 }
